@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ESTILOS PARA MOVIL -->
     <link rel="stylesheet" href="/styles.css">
-    <!-- FONT MONSERRAT -->
+    <!-- ESTILOS PARA IPAD -->
+    <link rel="stylesheet" href="/stylesIpad.css" media="screen and (min-width: 700px)">
+    <!-- ESTILOS PARA DESKTOP -->
+    <link rel="stylesheet" href="/stylesDesktop.css" media="screen and (min-width: 1200px)"> 
+    <!-- FONT MONSERRAT AND PLAYFAIR -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -16,17 +21,28 @@
 <body>
     <header>
         <nav class="header_nav">
-            <figure class="main_slider">
-                <img class="main_slider__img" src="/Assets_Imgs/main_slider/Slider1.jpg" alt="">
-            </figure>
+            <section class="main_slider">
+                <ul class="slider">
+                    <li class="slider__item"><img src="/Assets_Imgs/main_slider/Slider1.jpg" alt="" class="main_slider__img"></li>
+                    <li class="slider__item"><img src="/Assets_Imgs/main_slider/Slider2.jpg" alt="" class="main_slider__img"></li>
+                    <li class="slider__item"><img src="/Assets_Imgs/main_slider/Slider3.jpg" alt="" class="main_slider__img"></li>
+                    <li class="slider__item"><img src="/Assets_Imgs/main_slider/Slider4.jpg" alt="" class="main_slider__img"></li>
+                </ul>
+            </section>
+ 
             <div class="container container--header">
                 <div class="container__search">
-                    <p></p>
+                    <p class="container__search-text">PORTLAND, MAINE</p>
                 </div>
                 <figure class="container__logo">
-                    <img class="container__img" src="/Assets_Imgs/svgs/Logo.svg" alt="logo">
+                    <a class="container__url" href="https://www.tambourine.com/" target="_blank">
+                        <img class="container__img" src="/Assets_Imgs/svgs/Logo.svg" alt="logo">
+                    </a>
                 </figure>
-                 
+                <button href="#" class="container__toggle">
+                    <span class="container__toggle-text">BOOKNOW</span>
+                </button>
+                  
             </div>
         </nav>
     </header>
@@ -46,12 +62,12 @@
             <div class="container container--main_section">
                 <div class="card">
                     <div class="card__text">
-                        <h1 class="card__title">ACCOMMODATIONS</h1><br>
-                        <h2 class="card__subtitle">HOLLYWOOD, MEET INDUSTRIAL CHIC</h2><br>
+                        <h1 class="card__title">ACCOMMODATIONS</h1>
+                        <h2 class="card__subtitle">HOLLYWOOD, MEET INDUSTRIAL CHIC</h2>
                         <p class="card__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error veritatis facere beatae. Perspiciatis, architecto eveniet labore fuga inventore excepturi eum officia et eos necessitatibus? Totam non error esse cum aute, inventore consec.</p>
                     </div>
                     <figure class="card__figure">
-                        <img class="card__figure-img1" src="/Assets_Imgs/Room.jpg" alt="hollywood-room">
+                        <img class="card__figure-img1" src="/Assets_Imgs/card_room/Room.jpg" alt="hollywood-room">
                     </figure>
                     <a class="button" href="#">
                         <span class="button__text">VIEW ROOMS</span>
@@ -68,28 +84,28 @@
                         <h3 class="container__title">THIS MONTH'S MOST ANTICIPATED EVENTS</h3>
                     </div>
                     <div class="container__collection">
-                        <a href="#">
+                        <a class="collection__link" href="#">
                             <figure class="collection__figure">
-                                <img class="collection__figure-img1" src="/Assets_Imgs/event1.jpg" alt="">
-                                <img class="collection__figure-img2" src="/Assets_Imgs/calendar_1.png" alt="">
+                                <img class="collection__figure-img1" src="/Assets_Imgs/aside_img/event1.jpg" alt="">
+                                <img class="collection__figure-img2" src="/Assets_Imgs/aside_img/calendar_1.png" alt="">
                             </figure>
                         </a>
-                        <a href="#">
+                        <a class="collection__link" href="#">
                             <figure class="collection__figure">
-                                <img class="collection__figure-img1" src="/Assets_Imgs/event2.jpg" alt="">
-                                <img class="collection__figure-img2" src="/Assets_Imgs/calendar_2.png" alt="">
+                                <img class="collection__figure-img1" src="/Assets_Imgs/aside_img/event2.jpg" alt="">
+                                <img class="collection__figure-img2" src="/Assets_Imgs/aside_img/calendar_2.png" alt="">
                             </figure>
                         </a>
-                        <a href="#">
+                        <a class="collection__link" href="#">
                             <figure class="collection__figure">
-                                <img class="collection__figure-img1" src="/Assets_Imgs/event3.jpg" alt="">
-                                <img class="collection__figure-img2" src="/Assets_Imgs/calendar_3.png" alt="">
+                                <img class="collection__figure-img1" src="/Assets_Imgs/aside_img/event3.jpg" alt="">
+                                <img class="collection__figure-img2" src="/Assets_Imgs/aside_img/calendar_3.png" alt="">
                             </figure>
                         </a>
-                        <a href="#">
+                        <a class="collection__link" href="#">
                             <figure class="collection__figure">
-                                <img class="collection__figure-img1" src="/Assets_Imgs/event4.jpg" alt="">
-                                <img class="collection__figure-img2" src="/Assets_Imgs/calendar_4.png" alt="">
+                                <img class="collection__figure-img1" src="/Assets_Imgs/aside_img/event4.jpg" alt="">
+                                <img class="collection__figure-img2" src="/Assets_Imgs/aside_img/calendar_4.png" alt="">
                             </figure>
                         </a>  
                     </div>
