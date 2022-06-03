@@ -1,6 +1,9 @@
 #Ignore MACOS
 *.DS_Store
 
+#VSCode
+*.vscode
+
 #Images
 *.png
 *.jpg
