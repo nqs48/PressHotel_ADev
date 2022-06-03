@@ -1,11 +1,10 @@
 # PressHotel_ADev
 
-## Prueba Alicacion FrontEnd Developer Junior - Tambourine
+## Prueba FrontEnd Developer Junior - Tambourine
 
-En este proyecto de prueba se genera la mequetacion de un landing page,
-se reliza con la aplicacion de tecnologias estandares de la maquetacion como son HTML Y CSS Puro.
+En este proyecto de prueba se genera la maquetacion de un landing page,se reliza con el uso y aplicacion de tecnologias estandares de la maquetacion como son HTML Y CSS Puro.
 
-Tecnologias y Metodologias Usadas:
+###Tecnologias y Metodologias Usadas:
 
 - HTML 5 Semantico
 - Metodologia BEM (Block-Element-Modifier)

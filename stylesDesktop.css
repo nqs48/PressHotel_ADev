@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  
 }
 
 header {
@@ -188,21 +189,24 @@ header {
 }
 
 footer{ 
-  height: 3rem;
+  width: 100vw;
+  height: 6rem;
+  
 }
 
 .container--footer{
   flex-direction: row;
   font-size: 12px;
+  width: 100%;
 }
 
 .container__pfooter-p1{
-    justify-content: left;
-    width: 60%;
+    justify-content: center;
+
+    width: 50%;
 }
 
 .container__pfooter-p2{
-    width: 40%;
-    justify-content: right;
+    width: 50%;
+    justify-content: center;
 }
-} 

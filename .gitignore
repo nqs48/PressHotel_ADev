@@ -1,2 +1,7 @@
 #Ignore MACOS
 *.DS_Store
+
+#Images
+*.png
+*.jpg
+*.svg
