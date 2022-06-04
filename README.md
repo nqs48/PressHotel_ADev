@@ -16,7 +16,7 @@ Technologies and Methodologies Used:
 - Use of external fonts (Google Fonts)
 -VCS (Git/GitHub)
 
-### [https://adev-presshotel-fake.netlify.app/](https://adev-presshotel-fake.netlify.app/)
+### [https://adev-presshotel-clone.netlify.app/](https://adev-presshotel-clone.netlify.app/)
 
 
 ---
@@ -96,6 +96,6 @@ Jr. Software Developer
 - LinkedIn => [Nestor Quiroga Suárez](https://www.linkedin.com/in/nqs48/)
 
 
-Project Link: [https://adev-presshotel-fake.netlify.app/](https://adev-presshotel-fake.netlify.app/)
+Project Link: [https://adev-presshotel-clone.netlify.app/](https://adev-presshotel-clone.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
